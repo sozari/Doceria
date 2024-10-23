@@ -4,7 +4,7 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Cadastro - Doceria Dark Moon</title>
+  <title>Alteração - Doceria Dark Moon</title>
   <link rel="stylesheet" href="../css/estilo.css">
 </head>
 <body>
@@ -32,10 +32,10 @@
           <li><a href="#">Sair</a></li>
         </ul>
       </div>      <div class="conteudo">
-        <form action="#" method="post">
+          <form action="../controller/ingredienteBO.php" action="#" method="post">
           <label>Nome:</label>
           <input type="text" name="txtnome"><br><br>
-          <input type="hidden" name="acao" value="inserir"/>
+          <input type="hidden" name="acao" value="alterar"/>
           <input type="submit" name="btnCadastrar" value="Cadastrar"/>
           <input type="reset" name="btnLimpar" value="Limpar"/>
         </form>
